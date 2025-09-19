@@ -13,8 +13,7 @@ It is built using **HTML, CSS, and JavaScript** with a focus on clean design, re
 - [Project Structure](#project-structure)  
 - [How to Run Locally](#how-to-run-locally)  
 - [Screenshots](#screenshots)  
-- [Future Enhancements](#future-enhancements)  
-- [Live Demo](#live-demo)  
+- [Future Enhancements](#future-enhancements)    
 - [Contact](#contact)  
 
 ---
