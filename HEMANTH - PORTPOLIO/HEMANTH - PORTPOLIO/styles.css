@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background: linear-gradient(to right, #000000, #002b2b);
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background: #111;
+  border-right: 4px solid #00ffe1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #00ffe1;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo span {
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-links li i {
+  margin-right: 10px;
+}
+
+.nav-links li:hover,
+.nav-links li.active {
+  border-color: #00ffe1;
+  background-color: rgba(0, 255, 225, 0.1);
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socials a {
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  color: #00ffe1;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.text-section {
+  max-width: 600px;
+}
+
+.text-section h3 {
+  font-size: 24px;
+  color: #00ffe1;
+}
+
+.text-section h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.highlight {
+  color: #00ffe1;
+}
+
+.text-section h2 {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.text-section p {
+  margin: 6px 0;
+  color: #ccc;
+}
+
+.text-section a {
+  color: #00ffe1;
+  text-decoration: none;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #00ffe1;
+  color: #00ffe1;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-solid {
+  background: #00ffe1;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.image-section img {
+  width: 350px;
+  height: auto;
+  border-radius: 20px;
+}
